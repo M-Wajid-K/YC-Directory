@@ -1,5 +1,5 @@
 import SearchForm from "@/components/SearchForm";
-import StartupCard from "@/components/StartupCard";
+import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 
 export default async function Home({
   //query for search
@@ -17,8 +17,7 @@ export default async function Home({
       author: { _id: 1, name: "Adrine" },
       _id: 1,
       description: "This is the description.",
-      image:
-        "https://unsplash.com/photos/a-black-and-white-photo-of-a-robot-hb1LwHaB45s",
+      image: "https://picsum.photos/300/200",
       category: "Robots",
       title: "We are Robots",
     },
